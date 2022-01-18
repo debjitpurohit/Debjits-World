@@ -504,6 +504,10 @@ ion-icon {
     .container{
         flex-wrap: wrap;
     }
+    .debpic img{
+        height: 5vh;
+        width: 15vw;
+    }
 
 }
 
@@ -517,6 +521,10 @@ ion-icon {
         font-size: 20px;
         padding: 20px 0;
     }
+    .debpic img{
+        height: 5vh;
+        width: 15vw;
+    }
 
 }
 
@@ -529,6 +537,10 @@ ion-icon {
         list-style: none;
         font-size: 20px;
         padding: 20px 0;
+    }
+    .debpic img{
+        height: 5vh;
+        width: 15vw;
     }
 
 }
@@ -548,6 +560,10 @@ ion-icon {
     }
     .contactform h1{
         font-size: 20px;
+    }
+    .debpic img{
+        height: 5vh;
+        width: 15vw;
     }
 
 }
@@ -571,10 +587,18 @@ ion-icon {
         font-size: 20px;
         padding: 20px 0;
     }
+    .debpic img{
+        height: 5vh;
+        width: 15vw;
+    }
 }
 
 @media (max-width: 230px) {
     .sidebar {
         height: 200vh;
+    }
+    .debpic img{
+        height: 5vh;
+        width: 15vw;
     }
 }
