@@ -14,4 +14,17 @@ document.querySelector('.hamberger').addEventListener("click",()=>{
     }
 
 } )
+var loader= document.getElementById('preloader');
+window.addEventListener('load',function(){
+    loader.style.display='none';
+})
+// var icon = document.getElementById("icon");
+// icon.onclick= function(){
+//     document.body.classList.toggle("dark-theme")
+//     if(document.body.classList.contains("dark-theme")){
+//         icon.src ="img/sun.png";
+//     }else{
+//         icon.src = "img/moon.png";
+//     }
+// }
 

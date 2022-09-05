@@ -385,9 +385,10 @@ ion-icon {
 }
 
 #icon {
-    height: 18px;
-    width: 18px;
+    height: 28px;
+    width: 28px;
     cursor: pointer;
+    margin-left: 20px;
 
 }
 
@@ -504,7 +505,7 @@ ion-icon {
     .container{
         flex-wrap: wrap;
     }
-    .debpic img{
+    .devpic img{
         height: 5vh;
         width: 15vw;
     }
@@ -521,7 +522,7 @@ ion-icon {
         font-size: 20px;
         padding: 20px 0;
     }
-    .debpic img{
+    .devpic img{
         height: 5vh;
         width: 15vw;
     }
@@ -538,8 +539,8 @@ ion-icon {
         font-size: 20px;
         padding: 20px 0;
     }
-    .debpic img{
-        height: 5vh;
+    .devpic img{
+        height: 3vh;
         width: 15vw;
     }
 
@@ -561,7 +562,7 @@ ion-icon {
     .contactform h1{
         font-size: 20px;
     }
-    .debpic img{
+    .devpic img{
         height: 5vh;
         width: 15vw;
     }
@@ -587,7 +588,7 @@ ion-icon {
         font-size: 20px;
         padding: 20px 0;
     }
-    .debpic img{
+    .devpic img{
         height: 5vh;
         width: 15vw;
     }
@@ -597,8 +598,17 @@ ion-icon {
     .sidebar {
         height: 200vh;
     }
-    .debpic img{
+    .devpic img{
         height: 5vh;
         width: 15vw;
     }
 }
+#preloader{
+    background: #0e111f url(ezgif-2-078cdcb3f1d3.gif) no-repeat center center;
+    background-size: 30%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+     
